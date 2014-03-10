@@ -19,6 +19,10 @@
 		4EEF55D718CBE8D200DDEAF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EEF55BF18CBE8D200DDEAF5 /* UIKit.framework */; };
 		4EEF55DF18CBE8D200DDEAF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF55DD18CBE8D200DDEAF5 /* InfoPlist.strings */; };
 		4EEF55E118CBE8D200DDEAF5 /* tipcalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF55E018CBE8D200DDEAF5 /* tipcalcTests.m */; };
+		4EEF55ED18CBFFC200DDEAF5 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF55EB18CBFFC200DDEAF5 /* TipViewController.m */; };
+		4EEF55EE18CBFFC200DDEAF5 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF55EC18CBFFC200DDEAF5 /* TipViewController.xib */; };
+		4EEF55F218CD4AC600DDEAF5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF55F018CD4AC600DDEAF5 /* SettingsViewController.m */; };
+		4EEF55F318CD4AC600DDEAF5 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EEF55F118CD4AC600DDEAF5 /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		4EEF55DC18CBE8D200DDEAF5 /* tipcalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipcalcTests-Info.plist"; sourceTree = "<group>"; };
 		4EEF55DE18CBE8D200DDEAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4EEF55E018CBE8D200DDEAF5 /* tipcalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipcalcTests.m; sourceTree = "<group>"; };
+		4EEF55EA18CBFFC200DDEAF5 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TipViewController.h; path = ../TipViewController.h; sourceTree = "<group>"; };
+		4EEF55EB18CBFFC200DDEAF5 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TipViewController.m; path = ../TipViewController.m; sourceTree = "<group>"; };
+		4EEF55EC18CBFFC200DDEAF5 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TipViewController.xib; path = ../TipViewController.xib; sourceTree = "<group>"; };
+		4EEF55EF18CD4AC600DDEAF5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		4EEF55F018CD4AC600DDEAF5 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		4EEF55F118CD4AC600DDEAF5 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ../SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,12 @@
 		4EEF55C118CBE8D200DDEAF5 /* tipcalc */ = {
 			isa = PBXGroup;
 			children = (
+				4EEF55EF18CD4AC600DDEAF5 /* SettingsViewController.h */,
+				4EEF55F018CD4AC600DDEAF5 /* SettingsViewController.m */,
+				4EEF55F118CD4AC600DDEAF5 /* SettingsViewController.xib */,
+				4EEF55EA18CBFFC200DDEAF5 /* TipViewController.h */,
+				4EEF55EB18CBFFC200DDEAF5 /* TipViewController.m */,
+				4EEF55EC18CBFFC200DDEAF5 /* TipViewController.xib */,
 				4EEF55CA18CBE8D200DDEAF5 /* AppDelegate.h */,
 				4EEF55CB18CBE8D200DDEAF5 /* AppDelegate.m */,
 				4EEF55CD18CBE8D200DDEAF5 /* Images.xcassets */,
@@ -219,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EEF55EE18CBFFC200DDEAF5 /* TipViewController.xib in Resources */,
 				4EEF55C618CBE8D200DDEAF5 /* InfoPlist.strings in Resources */,
 				4EEF55CE18CBE8D200DDEAF5 /* Images.xcassets in Resources */,
+				4EEF55F318CD4AC600DDEAF5 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EEF55CC18CBE8D200DDEAF5 /* AppDelegate.m in Sources */,
+				4EEF55ED18CBFFC200DDEAF5 /* TipViewController.m in Sources */,
 				4EEF55C818CBE8D200DDEAF5 /* main.m in Sources */,
+				4EEF55F218CD4AC600DDEAF5 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
